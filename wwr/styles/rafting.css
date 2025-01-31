@@ -1,0 +1,83 @@
+:root {
+    --rafting-bg: #f5f5f5;
+    --rafting-color: #333;
+    --rafting-border: 1px solid #ccc;
+    --rafting-border-radius: 5px;
+    --rafting-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    --rafting-padding: 10px;
+    --rafting-margin: 10px;
+    --rafting-width: 100%;
+    --rafting-max-width: 500px;
+    --rafting-font-size: 16px;
+    --rafting-line-height: 1.5;
+    --rafting-font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+main{
+    max-width: 800px;
+    margin: 2rem auto;
+    font-family: Indie Flower, Arial, sans-serif;
+}
+
+body {
+    background-color: var(--rafting-bg);
+    color: var(--rafting-color);
+    font-size: var(--rafting-font-size);
+    line-height: var(--rafting-line-height);
+    font-family: var(--rafting-font-family);
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.5rem;
+	text-shadow: 3px 3px 5px #777;
+}
+
+.herodiv {
+	margin: 10px auto;
+	/* position: relative; /*If removed, what happens? */
+}
+
+.hero img {
+    display: block;
+	width: 100%;
+	height: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.stats {
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+	background: radial-gradient(#eee, #11aa11);
+	border: 1px solid #000;
+	padding: 0.65rem;
+	box-shadow: 0 0 30px #111;
+	opacity: 0.9;
+}
+
+h2 {
+	text-shadow: 0 0 15px #333;
+	border-bottom: 1px solid #999;
+	margin-bottom: 0.3rem;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	margin: 1rem;
+	border-top: 1px solid #000;
+	padding: 0.5rem;
+	color: navy;
+	font-weight: 700;
+	font-style: italic;
+    
+}
