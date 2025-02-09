@@ -136,7 +136,7 @@ h2{
     width: 200px;
 }
 figure {
-    display: flex;
+    display: inline-block;
     flex-direction: row;
     padding: 5px;
     justify-content: center;
