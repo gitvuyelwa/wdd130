@@ -41,12 +41,10 @@ header{
     
 }
 .navigation li{
-    display: row;
     flex: 1 1 auto;
 }
 
 .navigation a{
-    display: auto;
     color: rgb(46, 46, 138);
     padding: 20px;
     text-decoration: none;
@@ -151,7 +149,7 @@ figcaption {
     font: italic smaller sans-serif;
     padding: 3px;
     max-width: 210px;
-    text-align: bottom;
+    text-align: center;
 }
 section img {
     width: 200px;
