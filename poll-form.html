@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US"
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Vuyelwa Macanda | Poll-Form</title>
+    <meta name="author" content="Vuyelwa Macanda">
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+
+    <form action="index.php" method="POST">
+        <h1>Contact Information</h1>
+        <div class="form-item column2">
+            <label for="Full Name">Full Name:</label>
+            <input type="text" id="Full Name"><br>
+        </div>
+        <div class="form-item column2">
+            <label for="email">email:</label>
+            <input type="email" id="email"><br>
+        </div>
+        
+        <h1>Questions</h1>
+        <div class="form-item column1">
+            <label for="favorite internet browser?">What is your favorite internet browser?</label>
+            <select id="favorite internet browser?">
+                <option value="chrome">Chrome</option>
+                <option value="Microsoft edge">Microsoft Edge</option>
+                <option value="yahoo">Yahoo</option>
+            </select><br>
+        </div>
+
+        <div class="form-item column1">
+            <label for="pet">Do you have a pet?</label>
+            <input type="checkbox" id="pet"><br>
+        </div>
+
+        <div class="form-item column1">        
+            <label for="comment">List the places you have lived:</label>
+            <textarea id="comment" rows ='3' cols="25"></textarea>
+        </div>
+
+        <label for="submit poll"></label>
+        <input type="submit" id="submit poll">
+
+
+    </form>
+
+</body>
+</html>
