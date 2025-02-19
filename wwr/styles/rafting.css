@@ -14,6 +14,13 @@
     margin: 0.5rem;
     box-sizing: border-box;
 }
+body {
+    background: linear-gradient(to right, white,rgb(9, 177, 238));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 
 
 header a{
